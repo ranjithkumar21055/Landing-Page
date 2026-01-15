@@ -155,7 +155,7 @@ header.sticky {
 
     /* Counters */
     .counter-wrapper {
-      gap: 25px;
+      gap: 50px;
       flex-wrap: wrap;
       padding: 10px 0px;
 
@@ -196,6 +196,15 @@ header.sticky {
         img {
           width: 16px;
         }
+      }
+
+      .counter-wrapper {
+        gap: 25px !important;
+      }
+
+      .counter-item {
+        width: 150px;
+        max-width: 100%;
       }
 
       .meter-1,
