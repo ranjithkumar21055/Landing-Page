@@ -155,7 +155,7 @@ header.sticky {
 
     /* Counters */
     .counter-wrapper {
-      gap: 50px;
+      gap: 25px;
       flex-wrap: wrap;
       padding: 10px 0px;
 
