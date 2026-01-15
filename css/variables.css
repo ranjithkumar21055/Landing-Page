@@ -1,0 +1,72 @@
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-menu: #162456;
+  --color-heading: #032E15;
+  --color-text-light: #0D542B;
+  --color-gradient-main: linear-gradient(180deg, rgba(3, 46, 21, 0.6) 0%, rgba(1, 102, 48, 0.6) 100%);
+  --color-gradient-btn: linear-gradient(180deg, #032E15 0%, #016630 100%);
+;
+  --btn-shadow: 0px 6px 12px 0px #0000001A;
+
+  --font-base: Inter, sans-serif;
+  --font-secondary: Oxanium, sans-serif;
+
+  --font-lg: 72px;
+  --font-md: 40px;
+  --h1-font: 56px;
+  --h2-font: 36px;
+
+  --section-padding: 125px 15px;
+
+  --gap-sm: 16px;
+  --gap: 20px;
+  --gap-md: 32px;
+  --gap-lg: 48px;
+
+  --font-size-body: 16px;
+  --font-size-body-lg: 18px;
+  --font-size-body-xl: 20px;
+
+  --font-line-height-fit: 100%;
+  --font-line-height-body: 150%;
+  --font-line-height-heading: 120%;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  --transition-100: all 0.1s ease;
+  --transition-200: all 0.2s ease;
+  --transition-300: all 0.3s ease;
+
+  --rounded: 50px;
+  --radius-sm: 8px
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --section-padding: 90px 15px;
+
+    --font-lg: 64px;
+    --font-md: 36px;
+    --h1-font: 48px;
+    --h2-font: 34px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --section-padding: 60px 15px;
+
+    --font-size-body-xl: 18px;
+
+    --font-lg: 54px;
+    --font-md: 32px;
+    --h1-font: 42px;
+    --h2-font: 32px;
+  }
+}
